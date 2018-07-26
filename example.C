@@ -1,3 +1,5 @@
+//This file can be edited.
+//Edits are likely to mainly be in the file names for the histograms.
 #include "MyAnalysis.h"
 #include "Plotter.h"
 #include <iostream>
@@ -64,7 +66,7 @@ int main() {
 	P.AddBg(G->histograms, std::string("ZZ"));
 	P.AddBg(H->histograms, std::string("QCD"));
 	P.AddBg(I->histograms, std::string("single Top"));
-   
+//The name of the file below can be edited to prevent overwriting of previous data files.   
 	P.Plot(string("results.pdf"));
    
 	Plotter P_MC;
@@ -76,6 +78,7 @@ int main() {
 	P_MC.AddBg(G->histograms_MC, std::string("ZZ"));
 	P_MC.AddBg(H->histograms_MC, std::string("QCD"));
 	P_MC.AddBg(I->histograms_MC, std::string("single Top"));
-   P_MC.Plot(string("results_MC.pdf"));
+ //The name of the file below can be deited to prevent overwriting of previous data files.
+	P_MC.Plot(string("results_MC.pdf"));
 
 }
