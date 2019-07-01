@@ -2,9 +2,10 @@
 University of Notre Dame Quark Net version of the CMS Root Tutorial
 
 This directory is the central directory for the master files for the CMS Data
-Analysis Tutorial based on top-antitop (frequently refered to as ttbar) decay authored
-by Jun.-Prof. Dr. Christian Sander and Dr. Alexander Schmidt as used by the CMS Data
-group at the University of Notre Dame Quark NET Center starting in the summer of 2015.
+Analysis Tutorial (http://ippog.org/resources/2012/cms-hep-tutorial) based on 
+top-antitop (frequently refered to as ttbar) decay authored by Jun.-Prof. Dr. 
+Christian Sander and Dr. Alexander Schmidt as used by the CMS Data group at the 
+University of Notre Dame Quark NET Center starting in the summer of 2015.
 
 This directory contains files that should not be changed while in this directory.
 Any changes you need to make should be done in another directory.  This will allow
